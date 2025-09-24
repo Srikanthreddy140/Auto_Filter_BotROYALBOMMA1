@@ -222,21 +222,17 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
-
+🫥 <code>{filename}</code>⿻ |
 
 🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
+
+📽 ғᴏʀᴍᴀᴛ   : <b>{language}</b>
 🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
 {episodes}
-</blockquote>
 
+ʀᴀᴛɪɴɢ   : <b>{rating}</b>
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
-"""
-
+<blockquote> Uploaded By - <a href='https://t.me/+PLg3xZUnfdA3NTY1'>New Royalboom Movies</a> </blockquote>
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
