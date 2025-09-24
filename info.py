@@ -120,7 +120,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ROYALBOMMASR1') # Group link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ROYALBOMMASRGROUP1') # Group link for the bot
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/ROYALBOMMASR1') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/ROYALBOMMASR1') # Update channel link for the bot
 
@@ -223,9 +223,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "https://{excess-carp-srikanthreddy140-f077d2f3.koyeb.app/}/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "http://{excess-carp-srikanthreddy140-f077d2f3.koyeb.app/}/".format(FQDN)
 
 # ============================
 # Reactions Configuration
