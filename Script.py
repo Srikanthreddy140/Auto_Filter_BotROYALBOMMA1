@@ -235,7 +235,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <blockquote> Uploaded By - <a href='https://t.me/+PLg3xZUnfdA3NTY1'>New Royalboom Movies</a> </blockquote>
 
     IMDB_TEMPLATE_TXT = """
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🏷Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings> ({rating}/10 )</a>
