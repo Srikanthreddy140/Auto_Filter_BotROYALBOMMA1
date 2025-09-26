@@ -239,8 +239,6 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings> ({rating}/10 )</a>
-
-
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 <b>Requested by : {message.from_user.mention}</b>"""
 
