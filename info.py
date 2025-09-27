@@ -223,9 +223,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{excess-carp-srikanthreddy140-f077d2f3.koyeb.app/}/".format(FQDN)
+    URL = "https://{}/".format(FQDN)
 else:
-    URL = "http://{excess-carp-srikanthreddy140-f077d2f3.koyeb.app/}/".format(FQDN)
+    URL = "http://{}/".format(FQDN)
 
 # ============================
 # Reactions Configuration
